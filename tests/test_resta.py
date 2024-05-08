@@ -11,4 +11,4 @@ class TestClass:
         assert resta(10,5) == 5
         assert resta(3,3) == 0
         assert resta(-5,3) == -8
-        assert resta(-7,-4) == -11
+        assert resta(-7,-4) == -3
