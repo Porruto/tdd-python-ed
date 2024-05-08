@@ -2,7 +2,7 @@
 import pytest
 
 # Importar archivo de ejercicio
-from ejercicios.operaciones import suma
+from ejercicios.operaciones import multi
 
 # Clase para crear tests. Las funciones de testeo deberán crearse en esta clase
 class TestClass:
