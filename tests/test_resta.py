@@ -7,9 +7,8 @@ from ejercicios.operaciones import suma
 # Clase para crear tests. Las funciones de testeo deberán crearse en esta clase
 class TestClass:
 
-    # Test para la operación suma
-    def test_suma(self):
-        assert suma(4,5) == 9
-        assert suma(-1,-2) == -3
-        assert suma(-7,5) == -2
-        assert suma(-7,9) == 2
+    def test_resta(self):
+        assert resta(10,5) == 5
+        assert resta(3,3) == 0
+        assert resta(-5,3) == -2
+        assert resta(-7,-4) == -11
